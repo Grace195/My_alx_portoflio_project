@@ -5,7 +5,8 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  FaGithub
 } from 'react-icons/fa';
 import {
   FooterContainer,
@@ -36,9 +37,9 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+        What inspired the project?
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>The inspiration comes from the growing demand for online business solutions in a digital-first world, where businesses need effective platforms to generate leads and sell their products. The project is driven by a desire to help businesses increase their online presence and revenue by providing a secure, user-friendly platform.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
@@ -101,6 +102,9 @@ function Footer() {
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
+            </SocialIconLink>
+            <SocialIconLink href='https://github.com/Grace195/My_alx_portoflio_project' target='_blank' aria-label='LinkedIn'>
+              <FaGithub/>
             </SocialIconLink>
           </SocialIcons>
         </SocialMediaWrap>
