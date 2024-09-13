@@ -4,13 +4,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    topLine: 'E-commerce website',
+    headline: 'Comfy ',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+      'The project is an ecommerce website designed to offer a seamless experience for businesses and consumers to explore and purchase products online. It focuses on lead generation for online businesses, user-friendly onboarding, secure transactions, and robust data storage.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/watch.jpg'),
     alt: 'Credit Card',
     start: ''
   };
@@ -27,9 +27,9 @@ export const homeObjOne = {
       "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: require('../../images/svg-2.svg'),
+    img: require('../../images/watch.jpg'),
     alt: 'Vault',
-    start: ''
+    start: 'true'
   };
   
   export const homeObjThree = {
@@ -38,16 +38,17 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Sarah Jeni',
+    topLine: 'What inspired the project?',
     headline:
-      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+      'Project Inspiration',
     description:
-      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-    buttonLabel: 'View Case Study',
+      "The inspiration comes from the growing demand for online business solutions in a digital-first world, where businesses need effective platforms to generate leads and sell their products. The project is driven by a desire to help businesses increase their online presence and revenue by providing a secure, user-friendly platform.",
+    buttonLabel: 'View Products',
     imgStart: 'start',
     img: require('../../images/profile.jpg'),
     alt: 'Vault',
-    start: 'true'
+    start: 'true',
+    
   };
   
   export const homeObjFour = {
